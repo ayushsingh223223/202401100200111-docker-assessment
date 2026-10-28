@@ -1,8 +1,10 @@
 FROM python:3.13-alpine3.22
 
 WORKDIR /app
+ARG APP_VERSION=dev
 ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1
+    PYTHONUNBUFFERED=1 \
+    APP_VERSION=${APP_VERSION}
 
 RUN addgroup -S festpass && adduser -S -G festpass festpass
 COPY requirements.txt .
