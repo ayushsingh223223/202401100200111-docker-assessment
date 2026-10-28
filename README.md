@@ -36,7 +36,7 @@ $LASTEXITCODE
 
 | Image | CRITICAL | HIGH | Size |
 | --- | ---: | ---: | ---: |
-| `fest-backend:0.1` | Pending scan | Pending scan | Pending build |
+| `fest-backend:0.1` | Pending scan | Pending scan | 412 MB |
 | `fest-backend:0.2` | Pending scan | Pending scan | Pending build |
 
 ## AI use declaration
